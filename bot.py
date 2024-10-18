@@ -631,7 +631,8 @@ def main() -> None:
     keep_alive()
 
     # Initialize the bot
-    app = ApplicationBuilder().token(os.environ.get('7725726909:AAH2_zrjlGYwx1Pi9Z7tO9LVJWw7VMR6RHQ')).build()  # Use environment variable
+    app = ApplicationBuilder().token('7725726909:AAH2_zrjlGYwx1Pi9Z7tO9LVJWw7VMR6RHQ').build()
+
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("feedback", feedback_handler))
