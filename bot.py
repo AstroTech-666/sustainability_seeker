@@ -1,8 +1,11 @@
 from datetime import timedelta
-from telegram import CallbackQuery, Update, InlineKeyboardButton, InlineKeyboardMarkup 
+from telegram import CallbackQuery, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackContext, CallbackQueryHandler
 import logging
 import random
+import os
+from flask import Flask
+from threading import Thread
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -503,9 +506,52 @@ TIPS = [
     "Avoid fast fashion by purchasing high-quality, durable clothing."
 ]
 
+# List of sustainability tips
+TIPS = [
+    "Reduce plastic use by switching to reusable bags and bottles.",
+    "Save energy by turning off lights when not in use.",
+    "Choose public transport over driving to reduce your carbon footprint.",
+    "Conserve water by fixing leaks and using water-efficient appliances.",
+    "Plant trees to help absorb carbon dioxide and provide clean air.",
+    "Use energy-efficient light bulbs like LEDs to save electricity.",
+    "Compost your food waste to reduce the amount sent to landfills.",
+    "Opt for products with minimal packaging to cut down on waste.",
+    "Buy locally grown food to reduce transportation emissions.",
+    "Install solar panels if possible to harness renewable energy.",
+    "Use a programmable thermostat to reduce energy waste when you're not home.",
+    "Unplug electronic devices when not in use to prevent 'phantom' energy consumption.",
+    "Support brands that prioritize sustainability and ethical practices.",
+    "Eat less meat or switch to plant-based meals to lower your carbon footprint.",
+    "Avoid single-use plastics like straws, utensils, and containers.",
+    "Collect rainwater for gardening and other outdoor uses.",
+    "Use natural cleaning products to reduce harmful chemicals in your home.",
+    "Recycle electronics at proper facilities to prevent e-waste.",
+    "Advocate for climate policies in your community or workplace.",
+    "Use bicycles for short distances instead of cars to cut emissions.",
+    "Choose energy-efficient appliances when upgrading your home.",
+    "Wash clothes in cold water to save energy and extend the life of your garments.",
+    "Buy secondhand or upcycled goods to reduce demand for new products.",
+    "Turn off your computer or put it in sleep mode when not in use.",
+    "Avoid fast fashion by purchasing high-quality, durable clothing."
+]
+
 # Dictionary to store subscriptions
 subscriptions = {}
 feedback_list = []  # List to store feedback
+
+# Flask app to keep the bot alive
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "I'm alive"
+
+def run():
+    app.run(host='0.0.0.0', port=8080)
+
+def keep_alive():
+    t = Thread(target=run)
+    t.start()
 
 # Start Command Handler
 async def start(update: Update, context: CallbackContext) -> None:
@@ -548,9 +594,6 @@ async def button_handler(update: Update, context: CallbackContext) -> None:
     else:
         await show_communities(query, query.data)
 
-
-
-
     handler = handlers.get(query.data, show_communities)
     await handler(query) if query.data in handlers else await handler(query, query.data)
 
@@ -566,7 +609,6 @@ async def subscribe(query: CallbackQuery, context: CallbackContext) -> None:
         context.job_queue.run_daily(send_daily_tip_to_user, time=timedelta(hours=12), context=user_id)  # Send daily tips at noon
     else:
         await query.edit_message_text("You are already subscribed to updates.")
-
 
 # Send Daily Tip to User
 async def send_daily_tip_to_user(context: CallbackContext) -> None:
@@ -614,8 +656,12 @@ async def show_communities(query: CallbackQuery, section: str) -> None:
 
 # Main Function
 def main() -> None:
-    app = ApplicationBuilder().token("7725726909:AAH2_zrjlGYwx1Pi9Z7tO9LVJWw7VMR6RHQ").build()
-    
+    # Start the Flask app to keep the bot alive
+    keep_alive()
+
+    # Initialize the bot
+    app = ApplicationBuilder().token(os.environ.get('7725726909:AAH2_zrjlGYwx1Pi9Z7tO9LVJWw7VMR6RHQ')).build()  # Use environment variable
+
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("feedback", feedback_handler))
     app.add_handler(CallbackQueryHandler(button_handler))
