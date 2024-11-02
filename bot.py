@@ -21,7 +21,7 @@ SECTIONS_WITH_LINKS = {
     "https://www.aeecenter.org",
     "https://www.reddit.com/r/RenewableEnergy",
     "https://www.solarpowerworldonline.com",
-    "https://www.linkedin.com/groups/2121068"
+    "https://www.linkedin.com/groups/2121068",
     "https://www.linkedin.com/groups/4280062"
     ],
    "Waste Management": [
@@ -58,13 +58,43 @@ SECTIONS_WITH_LINKS = {
     "https://www.organic-center.org",
     "https://farmersmarketcoalition.org",
     "https://www.linkedin.com/groups/4673163",
-    "https://www.linkedin.com/groups/1691777",
+    "https://www.linkedin.com/groups/1691777"
     ],
 "Climate Policy": [
+    "https://climatenetwork.org",
+    "https://www.climaterealityproject.org",
+    "https://www.reddit.com/r/climate",
+    "https://www.c2es.org",
+    "https://www.edf.org",
+    "https://www.redeycl.org",
+    "https://www.linkedin.com/groups/1140337",
+    "https://www.linkedin.com/groups/13622996",
+    "https://350.org",
+    "https://www.theclimategroup.org"
     ],
 "Community Engagement": [
+    "https://fridaysforfuture.org",
+    "https://www.sdsnyouth.org",
+    "https://www.earthguardians.org",
+    "https://www.unicef.org/innovation/take-action",
+    "https://www.genevaenvironmentnetwork.org/resources/updates/youth-and-the-environment",
+    "https://education-for-climate.ec.europa.eu/community/Callforyoungmembers",
+    "https://worlded.org/work-for-us",
+    "https://www.instagram.com/youth_for_development_and_sg",
+    "https://www.instagram.com/yfs.in",
+    "https://www.linkedin.com/groups/9033600"
     ],
 "Biodiversity": [
+    "https://www.birdlife.org",
+    "https://iucn.org",
+    "https://www.worldwildlife.org",
+    "https://www.conservation.org",
+    "https://www.biodiversitylibrary.org",
+    "https://earthwatch.org",
+    "https://www.projectnoah.org",
+    "https://www.nationalgeographic.org/society",
+    "https://www.gbif.org",
+    "https://www.linkedin.com/groups/2620686"
     ],
 "Carbon Footprint Reduction": [
     ],
