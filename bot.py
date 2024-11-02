@@ -17,6 +17,7 @@ SECTIONS_WITH_LINKS = {
     "https://www.seai.ie/plan-your-energy-journey/for-your-community/sustainable-energy-communities/start-an-energy-community",
     "https://www.renewableenergyworld.com",
     "https://ases.org",
+    "https://acespace.org",
     "https://www.irena.org",
     "https://www.aeecenter.org",
     "https://www.reddit.com/r/RenewableEnergy",
@@ -97,8 +98,28 @@ SECTIONS_WITH_LINKS = {
     "https://www.linkedin.com/groups/2620686"
     ],
 "Carbon Footprint Reduction": [
+    "https://www.carbontrust.com/en-as",
+    "https://www.carbonfootprint.com/careers.html",
+    "https://www.changeclimate.org",
+    "https://carbonfootprintchallenge.org",
+    "https://drawdown.org",
+    "https://www.earthday.org",
+    "https://www.greenpeace.org/international",
+    "https://www.instagram.com/carbonfootprintfoundation",
+    "https://www.reddit.com/r/CarbonFootprint",
+    "https://www.linkedin.com/groups/107977"
     ],
 "Climate Justice": [
+    "https://climatejusticealliance.org",
+    "https://movementgeneration.org",
+    "https://ejfoundation.org",
+    "https://www.climaterealityproject.org",
+    "https://www.weact.org/home-3-2-2-2/getinvolved/membership/cjwg",
+    "https://www.linkedin.com/groups/9396139",
+    "https://www.linkedin.com/groups/14357555",
+    "https://www.reddit.com/r/climatejustice",
+    "https://www.instagram.com/climate.justice_/",
+    "https://www.cbecal.org/issues/climate-justice"
     ],
 "Sustainable Transportation": [
     ],
