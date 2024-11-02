@@ -122,10 +122,41 @@ SECTIONS_WITH_LINKS = {
     "https://www.cbecal.org/issues/climate-justice"
     ],
 "Sustainable Transportation": [
+    "https://transalt.org",
+    "https://activetrans.org",
+    "https://bikeleague.org",
+    "https://iclei.org",
+    "https://smartergrowth.net",
+    "https://www.walkscore.com",
+    "https://www.linkedin.com/groups/1103027",
+    "https://www.linkedin.com/groups/3201081",
+    "https://www.reddit.com/r/electricvehicles",
+    "https://www.transportationandclimate.org/content/sustainable-communities"
     ],
 "Recycling and Circular Economy": [
+    "https://www.ellenmacarthurfoundation.org",
+    "https://recyclingpartnership.org",
+    "https://www.circulareconomyclub.com",
+    "https://earth911.com",
+    "https://greenblue.org",
+    "https://www.plasticpollutioncoalition.org",
+    "https://www.reddit.com/r/circular_economy",
+    "https://www.linkedin.com/groups/14126274",
+    "https://www.linkedin.com/groups/10334500",
+    "https://www.linkedin.com/groups/82521",
+    "https://www.instagram.com/greenhillrecycling"
     ],
 "Green Building Practices": [
+    "https://living-future.org",
+    "https://www.usgbc.org",
+    "https://worldgbc.org",
+    "https://www.sierrabusiness.org",
+    "https://www.buildinggreen.com",
+    "https://greenroofs.org",
+    "https://www.linkedin.com/groups/4028849",
+    "https://www.linkedin.com/groups/2709533",
+    "https://www.reddit.com/r/greenbuilding",
+    "https://www.instagram.com/green.building"
     ],
 "Pollution Control": [
     ],
