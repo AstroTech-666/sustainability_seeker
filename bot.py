@@ -196,14 +196,74 @@ SECTIONS_WITH_LINKS = {
     "https://futureearth.org"
     ],
 "Sustainable Fisheries": [
+    "https://www.msc.org",
+    "https://www.iss-foundation.org",
+    "https://www.seafoodwatch.org",
+    "https://fishchoice.com",
+    "https://www.msc.org/what-we-are-doing/oceans-at-risk/the-impact-on-communities",
+    "https://sfact.org",
+    "https://rare.org/pillar/sustainable-fishing",
+    "https://www.linkedin.com/groups/1872514",
+    "https://www.linkedin.com/groups/4968022",
+    "https://www.instagram.com/sustainablefisheriesuw"
     ],
 "Environmental Education": [
+    "https://naaee.org",
+    "https://www.ecoschools.global",
+    "https://www.facebook.com/groups/environmentaleducators",
+    "https://www.earthday.org",
+    "https://www.plt.org",
+    "https://www.eeao.org",
+    "https://greenschoolsnationalnetwork.org",
+    "https://www.ecowatch.com",
+    "https://www.linkedin.com/groups/2181156",
+    "https://www.linkedin.com/groups/3071851",
+    "https://www.reddit.com/r/nationalgeographic",
+    "https://www.instagram.com/environmental.education",
+    "https://www.instagram.com/environmental_education_/"
     ],
 "Conservation of Natural Resources": [
+    "https://www.conservation.org",
+    "https://www.wri.org",
+    "https://www.earthguardians.org",
+    "https://www.nrdc.org",
+    "https://www.nature.org/en-us",
+    "https://foe.org",
+    "https://conbio.org",
+    "https://www.sierraclub.org",
+    "https://www.instagram.com/wisconservation",
+    "https://www.reddit.com/r/forestry",
+    "https://www.linkedin.com/groups/42970",
+    "https://www.linkedin.com/groups/12105377"
     ],
 "Smart Cities and Urban Planning": [
+    "https://www.smartcitiescouncil.com",
+    "https://www.usdn.org/index.html#/",
+    "https://uli.org",
+    "https://smartcities.ieee.org",
+    "https://www.nlc.org",
+    "https://www.c40.org",
+    "https://isocarp.org",
+    "https://newcities.org",
+    "https://www.instagram.com/smartcitiesmission",
+    "https://www.reddit.com/r/smartcities",
+    "https://www.linkedin.com/groups/4186165",
+    "https://www.linkedin.com/groups/13934294"
     ],
 "Environmental Advocacy": [
+    "https://foe.org",
+    "https://www.sierraclub.org",
+    "https://earthjustice.org",
+    "https://www.nrdc.org",
+    "https://rebellion.global",
+    "https://www.surfrider.org",
+    "https://www.ucsusa.org",
+    "https://www.breakfreefromplastic.org",
+    "https://amazonwatch.org",
+    "https://ejfoundation.org",
+    "https://www.wcs.org",
+    "https://www.ewg.org",
+    "https://protectourwinters.org/pow-international"
     ]
 }
 
