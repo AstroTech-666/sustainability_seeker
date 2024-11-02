@@ -172,8 +172,28 @@ SECTIONS_WITH_LINKS = {
     "https://www.epa.gov/ej-research/epa-research-environmental-justice-and-air-pollution"
     ],
 "Ecosystem Restoration": [
+    "https://www.reddit.com/r/ecologicalrestoration",
+    "https://www.ser.org",
+    "https://www.nature.org/en-us",
+    "https://www.ecosystemrestorationcommunities.org",
+    "https://rewildingeurope.com",
+    "https://restorationproject.org/wprp",
+    "https://www.wildlifetrusts.org",
+    "https://www.linkedin.com/groups/5091197",
+    "https://www.instagram.com/ecosystem_org",
+    "https://www.linkedin.com/groups/6987971"
     ],
 "Climate Change Adaptation": [
+    "https://www.cakex.org",
+    "https://www.nationaladaptationforum.org",
+    "https://iclei.org",
+    "https://unfccc.int",
+    "https://resilientcitiesnetwork.org",
+    "https://www.reddit.com/r/ClimateAdaptation",
+    "https://www.c40.org",
+    "https://www.thegef.org",
+    "https://www.adaptationcommunity.net",
+    "https://futureearth.org"
     ],
 "Sustainable Fisheries": [
     ],
