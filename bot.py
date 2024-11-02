@@ -88,6 +88,7 @@ SECTIONS_WITH_LINKS = {
 "Biodiversity": [
     "https://www.birdlife.org",
     "https://iucn.org",
+    "https://www.wri.org",
     "https://www.worldwildlife.org",
     "https://www.conservation.org",
     "https://www.biodiversitylibrary.org",
@@ -159,6 +160,16 @@ SECTIONS_WITH_LINKS = {
     "https://www.instagram.com/green.building"
     ],
 "Pollution Control": [
+    "https://www.facebook.com/groups/pollutioncontrol",
+    "https://www.unsdsn.org",
+    "https://www.p2.org",
+    "https://www.iaia.org",
+    "https://www.reddit.com/r/pollution_masks",
+    "https://www.linkedin.com/groups/2106285",
+    "https://www.linkedin.com/groups/3785602",
+    "https://www.linkedin.com/groups/6713552",
+    "https://www.cleanairfund.org/theme/inequality",
+    "https://www.epa.gov/ej-research/epa-research-environmental-justice-and-air-pollution"
     ],
 "Ecosystem Restoration": [
     ],
