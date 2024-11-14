@@ -8,6 +8,8 @@ Welcome to the **Sustainability Seeker** Telegram Bot! 🌍✨ This bot connects
 - **Community Links:** Access links to various global communities working on different aspects of climate action.
 - **User Contributions:** Join and contribute to discussions, initiatives, and projects related to sustainability.
 - **User-Friendly Interface:** Intuitive screens for easy navigation and interaction.
+- **Daily Tips:** You can ask for daily tips to enhance your knowledge.
+
 
 ## Usage
 Start a chat with the bot on Telegram: [@SustainabilitySeekerBot](https://t.me/SustainabilitySeekerBot).  
