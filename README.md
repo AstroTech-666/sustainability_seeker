@@ -1,5 +1,7 @@
 # Sustainability Seeker Telegram Bot
 
+![Sustainability Seeker](pic.jpg)
+
 Welcome to the **Sustainability Seeker** Telegram Bot! 🌍✨ This bot connects users to global communities focused on climate action and sustainability. 
 
 ## Features
