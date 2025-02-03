@@ -11,10 +11,6 @@ Welcome to the **Sustainability Seeker** Telegram Bot! 🌍✨ This bot connects
 - **Daily Tips:** You can ask for daily tips to enhance your knowledge.
 
 
-## Usage
-Start a chat with the bot on Telegram: [@SustainabilitySeekerBot](https://t.me/SustainabilitySeekerBot).  
-Follow the prompts to explore community links and contribute to sustainability efforts.
-
 ## Contributing
 We welcome contributions! If you have suggestions or improvements, please follow these steps:
 1. Fork the repository.
